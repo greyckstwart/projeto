@@ -21,19 +21,3 @@ function toggleMode() {
     img.setAttribute("alt", "Maquiadora Profissional Alethia Melo model1.")
   }
 }
-
-
-// teste pop up
-
-document.addEventListener("DOMContentLoaded", function () {
-  var popup = document.querySelector(".popup")
-  var closeButton = document.querySelector(".close-button")
-
-  // Exibe o pop-up assim que a página for carregada
-  popup.style.display = "block"
-
-  closeButton.addEventListener("click", function () {
-    popup.style.display = "none"
-  })
-})
-
